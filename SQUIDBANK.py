@@ -1,4 +1,2 @@
-# cook your dish here
-x,y=map(int,input().split())
-k=abs(y-x)
-print(k*10000)
+N,K=map(int,input().split())
+print((N-K)*10000)
