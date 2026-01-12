@@ -1,6 +1,6 @@
 # cook your dish here
-t=int(input())
-if t>=10:
-    print("YES")
+x=int(input())
+if x>=10:
+    print("yes")
 else:
-    print("NO")
+    print("no")
