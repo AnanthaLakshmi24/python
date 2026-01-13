@@ -1,6 +1,8 @@
 # cook your dish here
-x,y,z=map(int,input().split())
-if (x+y>z) and (y+z>x) and (x+z>y):
-    print("YES")
+a,b,c=map(int,input().split())
+if a+b>c and b+c>a and a+c>b:
+    print("Yes")
+elif a==b and b==c and a==c:
+    print("Yes")
 else:
     print("NO")
