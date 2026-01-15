@@ -1,8 +1,6 @@
 # cook your dish here
-x,y,z=map(int,input().split())
-k=x+y 
-if k<=z:
-    print((2*x)+(3*y))
+a,b,c=map(int,input().split())
+if a+b<=c:
+    print(a*2+3*b)
 else:
-    print(z*2+y)
-    
+    print(2*c+b)
